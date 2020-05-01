@@ -75,136 +75,137 @@ navbar-dark bg-dark
     <div>
 <p>修改项目的build.gradle文件, 把</p>
 <table class="codetable"><tr>
-<td class="linenos"><div class="linenodiv"><pre><a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-1"> 1</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-2"> 2</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-3"> 3</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-4"> 4</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-5"> 5</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-6"> 6</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-7"> 7</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-8"> 8</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-9"> 9</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-10">10</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-11">11</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-12">12</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-13">13</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-14">14</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-15">15</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-16">16</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-17">17</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-18">18</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-19">19</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-20">20</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-21">21</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-22">22</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-23">23</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-24">24</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-25">25</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-26">26</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a3239f88e4534418902df01167c533e7-27">27</a></pre></div></td>
-<td class="code"><pre class="code javascript"><a name="rest_code_a3239f88e4534418902df01167c533e7-1"></a><span class="nx">buildscript</span> <span class="p">{</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-2"></a>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-3"></a>    <span class="nx">repositories</span> <span class="p">{</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-4"></a>        <span class="nx">google</span><span class="p">()</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-5"></a>        <span class="nx">jcenter</span><span class="p">()</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-6"></a>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-7"></a>    <span class="p">}</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-8"></a>    <span class="nx">dependencies</span> <span class="p">{</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-9"></a>        <span class="nx">classpath</span> <span class="s1">'com.android.tools.build:gradle:3.6.3'</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-10"></a>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-11"></a>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-12"></a>        <span class="c1">// NOTE: Do not place your application dependencies here; they belong</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-13"></a>        <span class="c1">// in the individual module build.gradle files</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-14"></a>    <span class="p">}</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-15"></a><span class="p">}</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-16"></a>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-17"></a><span class="nx">allprojects</span> <span class="p">{</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-18"></a>    <span class="nx">repositories</span> <span class="p">{</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-19"></a>        <span class="nx">google</span><span class="p">()</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-20"></a>        <span class="nx">jcenter</span><span class="p">()</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-21"></a>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-22"></a>    <span class="p">}</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-23"></a><span class="p">}</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-24"></a>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-25"></a><span class="nx">task</span> <span class="nx">clean</span><span class="p">(</span><span class="nx">type</span><span class="o">:</span> <span class="nx">Delete</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-26"></a>    <span class="k">delete</span> <span class="nx">rootProject</span><span class="p">.</span><span class="nx">buildDir</span>
-<a name="rest_code_a3239f88e4534418902df01167c533e7-27"></a><span class="p">}</span>
+<td class="linenos"><div class="linenodiv"><pre><a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-1"> 1</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-2"> 2</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-3"> 3</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-4"> 4</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-5"> 5</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-6"> 6</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-7"> 7</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-8"> 8</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-9"> 9</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-10">10</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-11">11</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-12">12</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-13">13</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-14">14</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-15">15</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-16">16</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-17">17</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-18">18</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-19">19</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-20">20</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-21">21</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-22">22</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-23">23</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-24">24</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-25">25</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-26">26</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_c22baab02a274aaf9ccedf84e232177b-27">27</a></pre></div></td>
+<td class="code"><pre class="code javascript"><a name="rest_code_c22baab02a274aaf9ccedf84e232177b-1"></a><span class="nx">buildscript</span> <span class="p">{</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-2"></a>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-3"></a>    <span class="nx">repositories</span> <span class="p">{</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-4"></a>        <span class="nx">google</span><span class="p">()</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-5"></a>        <span class="nx">jcenter</span><span class="p">()</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-6"></a>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-7"></a>    <span class="p">}</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-8"></a>    <span class="nx">dependencies</span> <span class="p">{</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-9"></a>        <span class="nx">classpath</span> <span class="s1">'com.android.tools.build:gradle:3.6.3'</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-10"></a>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-11"></a>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-12"></a>        <span class="c1">// NOTE: Do not place your application dependencies here; they belong</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-13"></a>        <span class="c1">// in the individual module build.gradle files</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-14"></a>    <span class="p">}</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-15"></a><span class="p">}</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-16"></a>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-17"></a><span class="nx">allprojects</span> <span class="p">{</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-18"></a>    <span class="nx">repositories</span> <span class="p">{</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-19"></a>        <span class="nx">google</span><span class="p">()</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-20"></a>        <span class="nx">jcenter</span><span class="p">()</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-21"></a>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-22"></a>    <span class="p">}</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-23"></a><span class="p">}</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-24"></a>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-25"></a><span class="nx">task</span> <span class="nx">clean</span><span class="p">(</span><span class="nx">type</span><span class="o">:</span> <span class="nx">Delete</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-26"></a>    <span class="k">delete</span> <span class="nx">rootProject</span><span class="p">.</span><span class="nx">buildDir</span>
+<a name="rest_code_c22baab02a274aaf9ccedf84e232177b-27"></a><span class="p">}</span>
 </pre></td>
 </tr></table>
 <p>修改成</p>
 <table class="codetable"><tr>
-<td class="linenos"><div class="linenodiv"><pre><a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-1"> 1</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-2"> 2</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-3"> 3</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-4"> 4</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-5"> 5</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-6"> 6</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-7"> 7</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-8"> 8</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-9"> 9</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-10">10</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-11">11</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-12">12</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-13">13</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-14">14</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-15">15</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-16">16</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-17">17</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-18">18</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-19">19</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-20">20</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-21">21</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-22">22</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-23">23</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-24">24</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-25">25</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-26">26</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-27">27</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-28">28</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-29">29</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-30">30</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-31">31</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-32">32</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-33">33</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-34">34</a>
-<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_e94afe862e974522851becb983146d8c-35">35</a></pre></div></td>
-<td class="code"><pre class="code javascript"><a name="rest_code_e94afe862e974522851becb983146d8c-1"></a><span class="nx">buildscript</span> <span class="p">{</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-2"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-3"></a>    <span class="nx">repositories</span> <span class="p">{</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-4"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-5"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/nexus/content/groups/public/'</span> <span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-6"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/google'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-7"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/gradle-plugin'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-8"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/public'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-9"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/jcenter'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-10"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-11"></a>    <span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-12"></a>    <span class="nx">dependencies</span> <span class="p">{</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-13"></a>        <span class="nx">classpath</span> <span class="s1">'com.android.tools.build:gradle:3.6.3'</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-14"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-15"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-16"></a>        <span class="c1">// NOTE: Do not place your application dependencies here; they belong</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-17"></a>        <span class="c1">// in the individual module build.gradle files</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-18"></a>    <span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-19"></a><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-20"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-21"></a><span class="nx">allprojects</span> <span class="p">{</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-22"></a>    <span class="nx">repositories</span> <span class="p">{</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-23"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-24"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/nexus/content/groups/public/'</span> <span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-25"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/google'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-26"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/gradle-plugin'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-27"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/public'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-28"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/jcenter'</span><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-29"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-30"></a>    <span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-31"></a><span class="p">}</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-32"></a>
-<a name="rest_code_e94afe862e974522851becb983146d8c-33"></a><span class="nx">task</span> <span class="nx">clean</span><span class="p">(</span><span class="nx">type</span><span class="o">:</span> <span class="nx">Delete</span><span class="p">)</span> <span class="p">{</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-34"></a>    <span class="k">delete</span> <span class="nx">rootProject</span><span class="p">.</span><span class="nx">buildDir</span>
-<a name="rest_code_e94afe862e974522851becb983146d8c-35"></a><span class="p">}</span>
+<td class="linenos"><div class="linenodiv"><pre><a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-1"> 1</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-2"> 2</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-3"> 3</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-4"> 4</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-5"> 5</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-6"> 6</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-7"> 7</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-8"> 8</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-9"> 9</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-10">10</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-11">11</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-12">12</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-13">13</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-14">14</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-15">15</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-16">16</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-17">17</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-18">18</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-19">19</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-20">20</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-21">21</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-22">22</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-23">23</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-24">24</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-25">25</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-26">26</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-27">27</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-28">28</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-29">29</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-30">30</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-31">31</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-32">32</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-33">33</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-34">34</a>
+<a href="posts/android-studio-shi-yong-guo-nei-yuan/#rest_code_a7813fd3680645ffbb10547a867cd3aa-35">35</a></pre></div></td>
+<td class="code"><pre class="code javascript"><a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-1"></a><span class="nx">buildscript</span> <span class="p">{</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-2"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-3"></a>    <span class="nx">repositories</span> <span class="p">{</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-4"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-5"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/nexus/content/groups/public/'</span> <span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-6"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/google'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-7"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/gradle-plugin'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-8"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/public'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-9"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/jcenter'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-10"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-11"></a>    <span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-12"></a>    <span class="nx">dependencies</span> <span class="p">{</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-13"></a>        <span class="nx">classpath</span> <span class="s1">'com.android.tools.build:gradle:3.6.3'</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-14"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-15"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-16"></a>        <span class="c1">// NOTE: Do not place your application dependencies here; they belong</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-17"></a>        <span class="c1">// in the individual module build.gradle files</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-18"></a>    <span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-19"></a><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-20"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-21"></a><span class="nx">allprojects</span> <span class="p">{</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-22"></a>    <span class="nx">repositories</span> <span class="p">{</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-23"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-24"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/nexus/content/groups/public/'</span> <span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-25"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/google'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-26"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/gradle-plugin'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-27"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/public'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-28"></a>        <span class="nx">maven</span><span class="p">{</span> <span class="nx">url</span> <span class="s1">'https://maven.aliyun.com/repository/jcenter'</span><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-29"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-30"></a>    <span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-31"></a><span class="p">}</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-32"></a>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-33"></a><span class="nx">task</span> <span class="nx">clean</span><span class="p">(</span><span class="nx">type</span><span class="o">:</span> <span class="nx">Delete</span><span class="p">)</span> <span class="p">{</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-34"></a>    <span class="k">delete</span> <span class="nx">rootProject</span><span class="p">.</span><span class="nx">buildDir</span>
+<a name="rest_code_a7813fd3680645ffbb10547a867cd3aa-35"></a><span class="p">}</span>
 </pre></td>
 </tr></table>
+<p>Flutter项目中也可以用同样的方法解决.</p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/ren-sheng-mei-you-bai-zou-de-lu-mei-yi-bu-du-suan-shu/" class="u-url">人生没有白走的路，每一步都算数</a></h1>

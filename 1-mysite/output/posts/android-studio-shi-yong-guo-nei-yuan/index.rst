@@ -81,5 +81,4 @@
         delete rootProject.buildDir
     }
 
-    
-    
+Flutter项目中也可以用同样的方法解决.
