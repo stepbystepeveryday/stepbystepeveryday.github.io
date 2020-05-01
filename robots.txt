@@ -1,0 +1,4 @@
+Sitemap: https://stepbystepeveryday.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: stepbystepeveryday.github.io
