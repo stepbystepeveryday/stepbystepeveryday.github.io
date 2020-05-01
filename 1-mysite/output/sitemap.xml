@@ -7,38 +7,50 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://stepbystepeveryday.github.io/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/2020/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/archive.html</loc>
-  <lastmod>2020-05-01T17:57:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/categories/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stepbystepeveryday.github.io/categories/android/</loc>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stepbystepeveryday.github.io/categories/cat_android/</loc>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/categories/cat_za-wen/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/categories/za-wen/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/galleries/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/listings/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://stepbystepeveryday.github.io/posts/android-studio-shi-yong-guo-nei-yuan/</loc>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
  <url>
   <loc>https://stepbystepeveryday.github.io/posts/ren-sheng-mei-you-bai-zou-de-lu-mei-yi-bu-du-suan-shu/</loc>
-  <lastmod>2020-05-01T17:55:00Z</lastmod>
+  <lastmod>2020-05-01T18:17:00Z</lastmod>
  </url>
 </urlset>
