@@ -7,15 +7,23 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://stepbystepeveryday.github.io/categories/android.xml</loc>
-  <lastmod>2020-05-01T18:17:00Z</lastmod>
+  <lastmod>2020-05-01T18:22:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://stepbystepeveryday.github.io/categories/cat_android.xml</loc>
-  <lastmod>2020-05-01T18:17:00Z</lastmod>
+  <lastmod>2020-05-01T18:22:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://stepbystepeveryday.github.io/categories/cat_flutter.xml</loc>
+  <lastmod>2020-05-02T06:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://stepbystepeveryday.github.io/categories/cat_za-wen.xml</loc>
   <lastmod>2020-05-01T18:17:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://stepbystepeveryday.github.io/categories/flutter.xml</loc>
+  <lastmod>2020-05-02T06:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://stepbystepeveryday.github.io/categories/za-wen.xml</loc>
@@ -27,10 +35,10 @@
  </sitemap>
  <sitemap>
   <loc>https://stepbystepeveryday.github.io/rss.xml</loc>
-  <lastmod>2020-05-01T18:17:00Z</lastmod>
+  <lastmod>2020-05-02T06:36:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://stepbystepeveryday.github.io/sitemap.xml</loc>
-  <lastmod>2020-05-01T18:17:00Z</lastmod>
+  <lastmod>2020-05-02T06:36:00Z</lastmod>
  </sitemap>
 </sitemapindex>
